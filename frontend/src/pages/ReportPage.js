@@ -229,7 +229,7 @@ const ReportPage = () => {
 
       {yearTable && (
         <div>
-          <h1>Year Salese</h1>
+          <h1 className=" font-bold text-3xl text-center mt-2">Year Salese</h1>
 
           <table title="year Sales"  className="w-10/12 text-left border-2  border-blue-500 mx-auto mt-5" >
             <thead>
@@ -274,7 +274,7 @@ const ReportPage = () => {
 
       {monthTable && (
         <div>
-          <h1>Month Salese</h1>
+          <h1 className=" font-bold text-3xl text-center mt-2">Month Salese</h1>
           <table title=" month Sale"  className="w-10/12 text-left border-2  border-blue-500 mx-auto mt-5">
             <thead >
               <tr className="bg-blue-400 h-7">
@@ -328,7 +328,7 @@ const ReportPage = () => {
 
       {weekTable && (
         <div>
-          <h1>Weekly Sales</h1>
+          <h1 className=" font-bold text-3xl text-center mt-2">Weekly Sales</h1>
           <table title="Week Sale"  className="w-10/12 text-left border-2  border-blue-500 mx-auto mt-5">
             <thead>
               <tr className="bg-blue-400 h-7">
@@ -382,7 +382,7 @@ const ReportPage = () => {
 
       {dayTable && (
         <div>
-          <h1>Daily Sales</h1>
+          <h1 className=" font-bold text-3xl text-center mt-2">Daily Sales</h1>
           <table title="Date Sale"  className="w-10/12 text-left border-2  border-blue-500 mx-auto mt-5">
             <thead>
               <tr className="bg-blue-400 h-7">
